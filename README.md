@@ -17,7 +17,8 @@ Created by **Oliver Rex** 🎓
 
 ## 🖥️ Demo
 
-![[preview.png]]
+![Preview](preview.png)
+
 
 > Automatically sorted by aesthetic score. Click, tag, filter, and explore photos visually.
 
