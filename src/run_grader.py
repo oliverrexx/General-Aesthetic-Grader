@@ -18,7 +18,10 @@ model = model.to(torch.bfloat16).cuda() if torch.cuda.is_available() else model.
 
 # Image folder
 image_dir = "data/images"
-image_paths = list(Path(image_dir).glob("*.jpg"))
+image_paths = list(Path(image_dir).glob("*.[jJ][pP][gG]")) + \
+              list(Path(image_dir).glob("*.[jJ][pP][eE][gG]")) + \
+              list(Path(image_dir).glob("*.[pP][nN][gG]"))
+
 
 samples = []
 

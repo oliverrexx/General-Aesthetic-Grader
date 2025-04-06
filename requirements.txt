@@ -1,6 +1,6 @@
-aesthetic-predictor-v2-5
-fiftyone
 torch
 torchvision
-pillow
 tqdm
+pillow
+fiftyone
+aesthetic-predictor-v2-5
