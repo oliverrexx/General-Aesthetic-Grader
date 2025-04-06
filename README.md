@@ -2,7 +2,7 @@
 
 A simple, fast tool for automatically scoring the aesthetic quality of images using a machine learning model, with a fully interactive visual explorer powered by [FiftyOne](https://voxel51.com/).
 
-Created by **Oliver Rex** 🎓
+Created by **Oliver Rex and Isabella Crowe** 🎓
 
 ---
 
