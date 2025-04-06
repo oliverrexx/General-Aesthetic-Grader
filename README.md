@@ -1,2 +1,2 @@
-# General-Aesthetic-Grader
+# Photo-Aesthetic-Grader
 A simple ML project to grade photo aesthetics
