@@ -54,13 +54,8 @@ dataset.add_samples(samples)
 
 # Launch FiftyOne App
 session = fo.launch_app(dataset)
-session.wait()
 session.view = dataset.sort_by("aesthetic_score", reverse=True)
-
-# Show score under thumbnails
 dataset.app_config.media_fields = ["aesthetic_score"]
-dataset.save()
 session.refresh()
 
-# Keep session running
-input("Fiftone session running: Press ENTER to end when you are done\n")
+input("FiftyOne is running. Press Enter here to close it when you're done...\n")
