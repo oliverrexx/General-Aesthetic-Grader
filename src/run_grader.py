@@ -54,6 +54,7 @@ dataset.add_samples(samples)
 
 # Launch FiftyOne App
 session = fo.launch_app(dataset)
+session.wait()
 session.view = dataset.sort_by("aesthetic_score", reverse=True)
 
 # Show score under thumbnails
