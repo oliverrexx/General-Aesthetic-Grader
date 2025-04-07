@@ -24,16 +24,11 @@ Created by **Oliver Rex and Isabella Crowe** 🎓
 
 ---
 
-## 📂 Project Structure
-
-
-
----
-
 ## 🚀 Quick Start
 
 [Download Python 3.10.11](https://www.python.org/downloads/release/python-31011/)
 
+**After Installing Python 3.10**
 ```bash
 # 1. Clone the repo
 git clone https://github.com/yourusername/photo-aesthetic-grader.git
@@ -47,10 +42,13 @@ python -m venv venv
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Add images to the folder:
+# 4. Install Fiftyone
+pip install fiftyone
+
+# 5. Add images to the folder:
 #    data/images/
 
-# 5. Run the scorer
+# 6. Run the scorer
 python src/run_grader.py
 ```
 
