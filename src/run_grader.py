@@ -55,7 +55,10 @@ dataset.add_samples(samples)
 # Launch FiftyOne App
 session = fo.launch_app(dataset)
 session.view = dataset.sort_by("aesthetic_score", reverse=True)
-session.dataset_app_config.media_fields = ["aesthetic_score"]
+
+# Show score under thumbnails
+dataset.app_config.media_fields = ["aesthetic_score"]
+dataset.save()
 session.refresh()
 
 # Keep session running
