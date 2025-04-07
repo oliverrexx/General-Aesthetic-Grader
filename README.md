@@ -32,6 +32,8 @@ Created by **Oliver Rex and Isabella Crowe** 🎓
 
 ## 🚀 Quick Start
 
+(Download Python 3.10.11)[https://www.python.org/downloads/release/python-31011/]
+
 ```bash
 # 1. Clone the repo
 git clone https://github.com/yourusername/photo-aesthetic-grader.git
