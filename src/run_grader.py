@@ -62,4 +62,4 @@ dataset.save()
 session.refresh()
 
 # Keep session running
-input("Fiftone session running: Press ENTER To End")
+input("Fiftone session running: Press ENTER to end when you are done\n")
