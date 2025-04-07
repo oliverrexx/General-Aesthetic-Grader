@@ -57,3 +57,6 @@ session = fo.launch_app(dataset)
 session.view = dataset.sort_by("aesthetic_score", reverse=True)
 session.dataset_app_config.media_fields = ["aesthetic_score"]
 session.refresh()
+
+# Keep session running
+input("Fiftone session running: Press ENTER To End")
